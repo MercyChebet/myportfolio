@@ -4,16 +4,17 @@ import './navbar.css'
 
 const Navbar = () => {
   return (
-    <nav classname="navbar">
-      <img src="" alt="logo" />
-      <div classname="desktopMenu">
+    <nav className="Navbar">
+      <img src="" alt="" />
+      <div className="desktopMenu">
 
       </div>
-      <button classname="desktopMenuBtn">
-        <img src="" alt="contactmeimage" classname="desktopMenuImg"/>Contact Me </button>
+      <button className="desktopMenuBtn">
+        <img src="" alt="" className="desktopMenuImg" /> Contact Me
+         </button>
 
     </nav>
   )
 }
 
-export default Navbar
+export default Navbar;
